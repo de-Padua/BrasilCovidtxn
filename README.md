@@ -4,8 +4,13 @@ Tracker de covid feito com 2 apis que me dão dados precisos dos estados e do to
 
 -Feature que irei adicionar são :
 
-Estatisticas sobre vacinação
+Estatisticas sobre vacinação,
 Estatisticas sobre os principais paises,não só o Brasil
+
+
+
+
+
 
 
 
