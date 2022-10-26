@@ -1,0 +1,380 @@
+body,html{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+}
+.navbar{
+   
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 100vw;
+    height: 10em;
+    background-color: rgb(20, 20, 20);
+
+}
+.logo{
+    font-weight: lighter;
+    color: rgb(233, 233, 233);
+    font-size: 70px;
+}
+.links a{
+    transition: all .15s ease;
+    background-color: white;
+    color: rgb(15, 14, 14);
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    border-bottom: 5px solid #ff0000;
+    margin-inline-end: 1em;
+}
+.links a:hover{
+    background-color: #c8cbcb;
+    border-bottom: 10px solid #ff0000;}
+
+.home{
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    
+}
+.left-side{
+    font-family: monospace;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    height: 40em;
+    background-color: #eef0f3;
+    width: 50%;
+    color: black;
+}
+.right-side{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 40em;
+   color: black;
+    width: 50%;
+
+}
+.mund-text{
+    font-family: monospace;
+    margin-top: 1em;
+    font-size: 60px;
+}
+.recomendacoes{
+    font-size: 20px;
+    width: 100%;
+}
+.mortes-total{
+    font-size: 40px;
+    color: red;
+}
+.main-container{ 
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 20px;
+grid-row-gap:10px;
+width: 40%;
+}
+.card{
+   text-decoration: none;
+   color: black;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.info-card{
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    width: 50%;
+}
+.text-card{
+    margin: 0;
+}
+.text-card p{
+    
+    padding: 0;
+    color: rgb(128, 128, 128);
+}
+.img-card img{
+    object-fit: cover;
+    height: 200px;
+    margin: 0;
+    border-radius: 10px;
+}
+.noticias-title{
+    padding: 10px;
+    color: white;
+    background-color: black;
+    width: 90%;
+    font-size: 40px;
+}
+.main-grid{
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    width: 95vw;
+}
+.title-grid{
+    width: 50%;
+    align-content: center;
+    flex-direction: column;
+ display: flex;
+   
+}
+.main-container div{
+   
+    font-family: monospace;
+    padding: 10px;
+    color: black;
+    border-radius: 5px;
+    
+}
+.grid-el h2{
+    padding: 0;
+    height: 3em;
+    font-size: 26px;
+}
+.widget{
+   
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.header-wid{
+    font-size: 40px;
+   justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+}
+.header-wid img{
+    padding-right:16px;
+    height: 100%;
+}
+.body-wid{
+    font-size: 30px;
+   
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    text-align: center; 
+}
+.body-wid div{
+    
+    width: 140px;
+    height: fit-content;
+    padding-inline: .6em;
+}
+.text-wid{
+    font-size: 26px;
+}
+.data{
+    font-size: 20px;
+}
+.mortos {
+    background-color: black;
+    color: white;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.recuperados{
+    
+    color: rgb(69, 108, 11);
+}
+.confirmados-list{
+    color: rgb(255, 247, 247);
+    padding: 10px;
+    font-size: 16px;
+    width: fit-content;
+    background-color: #bf2b2b;
+    border-radius: 3px;
+}
+.death-list{
+    font-weight: bolder;
+    color: rgb(249, 249, 249);
+    background-color: black;
+    font-size: 14px;
+    padding-left: 6px;
+}
+.footer{
+    margin-top: 10em;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    min-height: 20em;
+    display: flex;
+    flex-direction: row;
+    background-color: #C6C7C4;
+    
+}
+.iframe{
+width: 830px;
+height: 540px;
+}
+.links-Sobre a{
+    color: black;
+    padding-top: 1em;
+    text-decoration: none;
+}
+.links-API a{
+    color: black;
+    padding-top: 1em;   
+     text-decoration: none;
+}
+.links-Sobre{
+    display: flex;
+    flex-direction: column;
+}
+.links-API{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+.info-card{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+
+}
+.img-card img{
+    border-radius: 20px;
+    
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    
+   
+}
+
+@media only screen and (max-width: 1268px){
+
+    .home{
+        flex-direction: column;
+    }
+    .recomendacoes{
+        overflow-y: auto;
+        width: 100vw;
+        
+    }
+    .iframe{
+        overflow-x: auto;
+        width: 700px;
+        
+        height: 500px;
+    }
+    .main-grid{
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        flex-direction: column;
+    }
+    .title-grid{
+        width: 100vw;
+    }
+    .card{
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+    .info-card{
+        height: 260px;
+        margin-top: .5em;
+        width: 90%;
+    }
+    .text-card{
+        height: fit-content;
+    }
+    .text-card h3{
+        margin: 0;
+    }
+    .text-card p{
+        color: rgb(27, 27, 27);
+       
+        font-weight: lighter;
+    }
+    .img-card img{
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 2/1;
+        border-radius: 0px;
+    }
+    .main-container{ 
+        display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap:40px;
+    width: 95%;
+    }
+    .main-container div{
+   
+        font-family: monospace;
+        padding: 16px;
+        color: black;
+        height: 100%;
+        border-radius: 5px;
+        
+    }
+    .left-side{
+        width: 100vw;
+    }
+    .widget{
+        margin-top: 2em;
+        font-size: 10px;    
+    }
+    .header-wid{
+        margin-bottom: 1em;
+        font-size: 14px;
+    }
+    .body-wid{
+        font-size: 12px;
+        margin: 0;
+        width: fit-content;
+        height: auto;
+
+        
+    }
+    .body-wid div{
+        width: fit-content;
+    }
+    .text-wid{
+        font-size: 12px;
+    }
+    .home-text{
+        font-size: 16px;
+    }
+    .logo{
+        font-size: 27px;
+        color: white;
+    }
+    .noticias-title{
+        width: 100%;
+    }
+
+
+}
